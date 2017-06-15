@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+body {
+  font-family: 'Gloria Hallelujah', cursive;
+  margin: 0;
+  color: black;
+  opacity: 0.9;
+  text-align: center;
+  text-decoration: none;
+    background-color: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background-color: grey;
+  position: fixed;
+  z-index: 10;
+}
+.header-logo {
+  margin-left: 15px;
+}
+.header-logo h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.header-nav {
+  margin-right: 15px;
+  width: 400px;
+}
+.header-nav nav{
+  display: flex;
+  justify-content: space-around;
+}
+.header-nav a:hover {
+  color: #f5f5f5;
+}
+/*div {
+  border: 1px solid black;
+}*/
+/*---- END OF HEADER ----*/
+.main-container {
+  padding-top: 80px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.introduction {
+  background-image: url(../images/img-introduction.png);
+  height: 700px;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+.introduction h1 {
+  margin-top: 500px;
+  width: 1196px;
+  background-color: black;
+  opacity: 0.6;
+  color: white;
+}
+/*---- END OF INTRODUCTION ----*/
+.aboutme {
+  padding-top: 75px;
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aboutme span {
+  padding: 10px 0;
+}
+/*---- END OF ABOUTME ----*/
+.hobbies {
+  padding-top: 75px;
+}
+
+.hobbies-container {
+  width: 900px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+.hobbies-panel {
+  width: 200px;
+  height: 400px;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+}
+.panel-content h3 {
+  margin: 1px 0;
+}
+/*---- END OF HOBBIES ----*/
+.social-media {
+  padding-top: 150px;
+  width: 900px;
+  margin: auto;
+}
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  height: 50px;
+  margin: auto;
+}
+.footer {
+  padding-top: 75px;
+}
